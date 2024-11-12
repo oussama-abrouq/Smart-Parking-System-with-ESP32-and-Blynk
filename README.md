@@ -1,6 +1,7 @@
 #Smart Parking System with ESP32 and Blynk
 This project is a Smart Parking System developed using an ESP32 microcontroller to manage the availability of parking slots in real time. It uses infrared (IR) sensors to detect the presence of cars and controls barriers with servo motors to manage entry and exit. The system is also integrated with Blynk, enabling remote monitoring of the parking status via a mobile application.
 
+
 ##Features
 IR Sensors: Monitors each parking slot and entry/exit points to detect the presence of vehicles.
 Servo-Controlled Barriers: Automatically raises or lowers barriers at entry and exit points based on slot availability.
