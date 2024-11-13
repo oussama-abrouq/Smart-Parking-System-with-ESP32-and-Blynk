@@ -14,10 +14,10 @@ This project is a Smart Parking System developed using an ESP32 microcontroller 
 -LCD Display: Shows available slots and other notifications.<br/>
 -Blynk: IoT platform used for remote monitoring.<br/>
 ## How It Works
-Detecting Vehicles: IR sensors detect vehicles entering and exiting the parking area.<br/>
-Controlling Barriers: Based on sensor input, the system raises or lowers the barriers, allowing vehicles to enter if space is available or restricting access if the lot is full.<br/>
-Updating Slot Status: The number of available slots is updated continuously and displayed on the LCD and the Blynk app.<br/>
-Remote Monitoring: Users can check the parking status through the Blynk app, seeing in real time whether spaces are available.<br/>
+-Detecting Vehicles: IR sensors detect vehicles entering and exiting the parking area.<br/>
+-Controlling Barriers: Based on sensor input, the system raises or lowers the barriers, allowing vehicles to enter if space is available or restricting access if --the lot is full.<br/>
+-Updating Slot Status: The number of available slots is updated continuously and displayed on the LCD and the Blynk app.<br/>
+-Remote Monitoring: Users can check the parking status through the Blynk app, seeing in real time whether spaces are available.<br/>
 ## Installation
 Set up the ESP32 microcontroller with the code in this repository.<br/>
 Configure the Wi-Fi credentials and Blynk authentication token in the code.<br/>
